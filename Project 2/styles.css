@@ -1,0 +1,242 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(252, 252, 252);
+    min-height: 100vh;
+    height: 90px;    
+}
+
+.first {    
+    border-radius: 20px;
+    margin: 100px;    
+}
+
+.row1 {    
+    display: flex;
+    width: 1000px;    
+}
+
+.column1 {
+    width: 600px;    
+    text-align: left;
+}
+
+
+.column1 h1 {
+    font-size: 50px;
+    line-height: 40px;
+    width: 400px;
+    color: rgb(67,25,65);
+      
+}
+
+.column1 p {
+    font-size: 15px;
+    width: 400px;
+    color: rgb(183, 172, 181);
+
+}
+
+.column2 {    
+    width: 600px;
+    padding-top: 20px;
+    align-items: right;    
+    text-align: center;    
+}
+
+#start1 {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 10px;    
+    border-radius: 10px;
+    height: 20px;
+    width: 350px;
+    background-color: rgb(247, 242, 246);
+    color: rgb(93,67,93);
+}
+
+#start2 {
+    border: 1px solid;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-left: 20px;    
+    border-radius: 10px;
+    height: 20px;
+    width: 350px;
+    background-color: rgb(247, 242, 246);
+    color: rgb(93,67,93);
+}
+
+#start3 {
+    border: 1px solid;
+    padding: 10px;
+    margin-left: 40px;    
+    border-radius: 10px;
+    height: 20px;
+    width: 350px;
+    background-color: rgb(247, 242, 246);
+    color: rgb(93,67,93);    
+}
+
+.col1 {
+    color: rgb(234, 154, 83);
+}
+
+.col2 {
+    color: rgb(234, 154, 83);
+}
+
+.col3 {
+    color: rgb(234, 154, 83);
+}
+
+.first .row1 {
+    display: flex;    
+}
+
+.first .column3 {
+    display: flex;       
+}
+
+.column3 img {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.column3 {
+    display: flex;
+    height: 200px;
+    padding-top: 20px;    
+    padding-bottom: 40px;
+    text-align: left;
+    
+}
+
+
+#one {
+    border: 1px solid;
+    border-radius: 15px;
+    margin-right: 20px;
+    height: 200px;
+    width: 300px;
+    padding: 7px;
+    background-color: rgb(81, 31, 80);
+    border-color: rgb(81, 31, 80);
+    color: rgb(208, 187, 207);   
+}
+
+#one h3 {
+    display: flex;
+    
+}
+#one span {
+    margin-left: 20px;
+}
+
+#one h3 div {
+    font-size: 15px;
+    color: rgb(152, 67, 122);
+}
+
+#two {
+    border: 1px solid;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 200px;
+    width: 300px;
+    padding: 7px;
+    background-color: rgb(81, 31, 80);
+    border-color: rgb(81, 31, 80);
+    color: rgb(208, 187, 207);    
+}
+
+#two h3 {
+    display: flex;
+    
+}
+#two span {
+    margin-left: 20px;
+}
+
+#two h3 div {
+    font-size: 15px;
+    color: rgb(152, 67, 122);
+}
+
+#three {
+    border: 1px solid;
+    border-radius: 15px;
+    margin-top: 40px;
+    height: 200px;
+    width: 300px;
+    padding: 7px;
+    background-color: rgb(81, 31, 80);
+    border-color: rgb(81, 31, 80);
+    color: rgb(208, 187, 207);    
+}
+
+#three h3 {
+    display: flex;
+    
+}
+#three span {
+    margin-left: 20px;
+}
+
+#three h3 div {
+    font-size: 15px;
+    color: rgb(152, 67, 122);
+}
+
+@media (max-width: 600px) {
+    .row1 {    
+        display: flex;
+        flex-direction: column;
+        width: 100px;    
+    }
+    .column3 {
+        display: flex;
+        flex-direction: column;
+        height: 200px;
+        padding-top: 20px;    
+        padding-bottom: 40px;
+        text-align: left;        
+    }
+    #start1 {        
+        margin-bottom: 20px;
+        height: 20px;
+        width: 350px;       
+    }
+    
+    #start2 {        
+        margin-bottom: 20px;       
+        margin-left: 0;
+        height: 20px;
+        width: 350px;        
+    }
+    
+    #start3 {        
+        margin-left: 0;
+        height: 20px;
+        width: 350px;        
+    }
+    #one {        
+        margin-right: 20px;
+        height: 200px;
+        width: 350px;        
+    }
+    #two {        
+        margin-right: 20px;
+        height: 200px;
+        width: 350px;        
+    }
+    #three {        
+        margin-right: 20px;
+        height: 200px;
+        width: 350px;        
+    }
+}

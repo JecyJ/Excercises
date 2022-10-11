@@ -1,0 +1,418 @@
+body {
+    background-color: rgb(13, 19, 35);    
+    max-height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.big {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    border: 1px solid white;
+    justify-content: left;
+    align-items: left;
+    height: 15em;    
+    border-radius: 10px;
+    padding-left: 15px;
+    background-color: rgb(29, 32, 75);
+        
+}
+
+.big img {
+    margin-top: 10px;
+    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
+#step1 p {
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+#color {
+    color: rgb(52, 58, 113);
+}
+
+#step1 h1 {
+    margin: 0;
+}
+
+#step2 {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.small {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    height: 23em;
+    width: 12em;
+    color: white;
+    border-radius: 12px;    
+}
+
+.large {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3em;
+}
+
+.extralarge {
+    display: flex;
+    flex-direction: row;    
+}
+
+.work {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(255, 139,100);
+}
+.work .firststage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+.stage1 {
+    display: flex;
+    flex-direction: row;
+}
+.stage2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.stage1 span {
+    margin-left: 110px;
+}
+
+.stage2 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage2 p {
+    margin-top: 5px;
+}
+
+.play {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    margin-right: 15px;
+    color: white;
+    background-color: rgb(86, 194, 230);
+}
+.play .secondstage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+
+.stage3 span {
+    margin-left: 110px;
+}
+
+.stage4 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage4 p {
+    margin-top: 5px;
+}
+.study {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(243, 99, 126);
+}
+.study .thirdstage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+
+.stage5 span {
+    margin-left: 110px;
+}
+
+.stage6 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage6 p {
+    margin-top: 5px;
+}
+.exercise {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: white;
+    background-color: rgb(75, 207, 131);
+}
+.exercise .fourthstage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+
+.stage7 span {
+    margin-left: 85px;
+}
+
+.stage8 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage8 p {
+    margin-top: 5px;
+}
+.social {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    margin-right: 15px;
+    color: white;
+    background-color: rgb(114, 53, 209);
+}
+.social .fifthstage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+
+.stage9 span {
+    margin-left: 110px;
+}
+
+.stage10 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage10 p {
+    margin-top: 5px;
+}
+.selfcare {
+    border: 1px solid white;
+    height: 10em;
+    width: 12em;
+    border-radius: 12px;
+    color: white;
+    background-color: rgb(237, 200, 101);
+}
+.selfcare .sixthstage {
+    padding-left: 15px;
+    margin-top: 31px;
+    border: 1px solid white;
+    height: 8em;
+    border-radius: 12px;
+    background-color: rgb(29, 32, 75);
+}
+
+.stage11 span {
+    margin-left: 90px;
+}
+
+.stage12 h1 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.stage12 p {
+    margin-top: 5px;
+}
+
+
+@media (max-width: 500px) {
+    .small {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20em;
+        width: 23em;
+        height: 11em;
+    }
+    #step1 {
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .big img {
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+    #step2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: left;
+        align-items: center;
+    }
+    #color2 {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+    .big {
+        display: flex;
+        flex-direction: row;        
+    }
+    .large {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3em;
+        margin-top: 12em;
+        justify-content: center;
+        align-items: center;        
+        height: 11em;
+    }
+    .work {
+        width: 23em;
+        margin-bottom: 1em;
+        
+    }
+    .stage1 span {
+        margin-left: 17em;      
+    }
+    .stage2 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage2 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 120px;
+    }
+    .play {
+        width: 23em;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+    .stage3 span {
+        margin-left: 17em;      
+    }
+    .stage4 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage4 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 120px;
+    }
+    .study {
+        width: 23em;
+    }
+    .stage5 span {
+        margin-left: 16.5em;      
+    }
+    .stage6 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage6 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 140px;
+    }
+    
+    .extralarge {
+        display: flex;
+        flex-direction: column;
+        margin-top: 12em;
+        width: 23em;
+        height: 11em;    
+    }
+    .exercise {
+        width: 23em;
+        margin-bottom: 1em;
+    }
+    .stage7 span {
+        margin-left: 15.5em;      
+    }
+    .stage8 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage8 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 140px;
+    }
+    .social {
+        width: 23em;
+        margin-left: 1em;
+    }
+    .stage9 span {
+        margin-left: 16em;      
+    }
+    .stage10 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage10 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 130px;
+    }
+    .selfcare {
+        width: 23em;
+        margin-left: 1em;
+        margin-top: 1em;       
+    }
+    .stage11 span {
+        margin-left: 14.5em;      
+    }
+    .stage12 {
+        display: flex;
+        flex-direction: row;        
+    }
+    .stage12 p {
+        margin-top: 25px;
+        margin-bottom: 0;
+        margin-left: 140px;
+    }
+    .box1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 40em;        
+    }
+    
+}

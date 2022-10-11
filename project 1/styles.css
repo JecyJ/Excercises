@@ -1,0 +1,96 @@
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: rgb(247, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center top;
+    min-height: 100vh;
+}
+
+#card {
+    display: flex;
+    justify-content: center;
+    align-items: center top;
+    border: 1px solid;
+    text-align: left;
+    flex-direction: row;
+    margin: 100px 250px;
+    border-radius: 15px;
+    
+}
+
+img {
+    height: 30em;
+    width: 27em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#text {
+    margin: 40px 40px;
+}
+
+h4 {
+    color: #b7b7a4;
+    letter-spacing: 1;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 3;
+    line-height: 1;
+}
+
+#text1 {
+    font-size: 15px;
+    font-weight: 200;
+    letter-spacing: 3;
+    line-height: 1.5;
+    color: #707062;
+}
+
+#text2 {
+    font-size: 35px;
+    color: #19aa2c;
+}
+
+sup {
+    color: #707062;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+#btn {
+    background-color: #19aa2c;
+    color: bisque;
+    border: 1px solid;
+    height: 5em;
+    width: 24em;
+    border-radius: 15px;
+    font-weight: 700;    
+}
+
+@media (max-width: 700px) {
+    #card {
+        display: flex;
+        justify-content: center;
+        align-items: center top;
+        border: 1px solid;
+        text-align: center;
+        flex-direction: column;
+        margin: 100px 250px;
+        border-radius: 15px;
+
+    }
+    #text {
+        margin-top: 5px;
+    }
+    img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 0;
+        height: 20em;
+    }
+}
