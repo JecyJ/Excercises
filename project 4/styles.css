@@ -1,11 +1,16 @@
 body {
     font-family: 'nunito' sans-serif;
     display: flex;
-    /* flex-direction: column; */
-    /* flex-direction: column;    */
+    flex-direction: column;    
+    align-items: center;   
     min-height: 100vh;
     margin: 0;
-    padding: 0;    
+    padding: 0;
+    width: 100%;    
+}
+.box {
+    width: 85.375em;
+    height: auto;
 }
 
 header {
@@ -62,12 +67,8 @@ header h1 {
 .block1 {
     position: relative;
     display: flex;
-    flex-direction: column;   
-    /* align-items: center; */
-    height: 30em;
-    max-width: auto;
-    width: 90em;
-    border-bottom: 1px solid;
+    flex-direction: column;
+    height: 30em;   
     border-bottom-left-radius: 5em;
     background-image: url('images/bg-pattern-intro-mobile.svg');
     background-size: 140em;
@@ -116,17 +117,13 @@ header h1 {
 .block2 {
     position: relative;
     display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
+    flex-direction: column;    
     padding-top: 6em;
-    padding-left: 10em;
-   height: 53em;
-   width: 80em;
-   /* border: 1px solid; */
+    padding-left: 7em;
+   height: 46em;   
    background-image: url(images/illustration-editor-desktop.svg);
    background-size: 55em;
-   background-position: 52em 3em;
+   background-position: 46em 3em;
    background-repeat: no-repeat;
    background-color: rgb(250, 250, 250);
 }
@@ -156,4 +153,152 @@ header h1 {
 #sec2 h2 {
     font-size: 1.6em;
     color: rgb(45, 66, 85);
+}
+
+.block3 {
+    position: relative;
+    height: 35em;    
+}
+#step1 {
+    position: absolute;
+    display: flex;    
+    justify-content: center;
+    flex-direction: row;
+    align-items: left;
+    height: 27em;    
+    margin-top: 3.5em;    
+    border-bottom-left-radius: 5em;
+    border-top-right-radius: 5em;
+    background-color: rgb(57, 59, 88);
+    color: white;    
+    background-image: url(images/bg-pattern-circles.svg);
+    background-size: 57em;
+    background-position: -12em -29em;
+    background-repeat: no-repeat;
+}
+#step1 img {
+    position: relative;
+    height: 40em;
+    width: 40em;
+    top: -5em;
+}
+#sec3 {
+    padding: 5em;
+    margin-right: 2em;
+}
+#sec3 h1 {
+    font-size: 2.5em;
+    font-weight: 400; 
+}
+#sec3 p {
+    font-size: 1.3em;
+    letter-spacing: 2;
+    line-height: 1.5em; 
+}
+
+.block4 {
+    position: relative;
+    display: flex;
+    flex-direction: column;    
+    height: 58em;    
+    justify-content: center;
+    align-items: left;
+    background-image: url(images/illustration-laptop-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -17.5em 4em;    
+}
+#sec4 {
+    width: 35em;    
+    margin-bottom: 2em;
+    margin-left: 44em;
+}
+#sec4 h2 {
+    font-size: 1.7em;
+    color: rgb(45, 66, 85);
+}
+#sec4 p {
+    font-size: 1.3em;
+    letter-spacing: 2;
+    line-height: 1.5em; 
+}
+#sec5 {
+    width: 35em;    
+    margin-left: 44em;
+}
+#sec5 h2 {
+    font-size: 1.7em;
+    color: rgb(45, 66, 85);
+}
+#sec5 p {
+    font-size: 1.3em;
+    letter-spacing: 2;
+    line-height: 1.5em; 
+}
+
+.block5 {    
+    display: flex; 
+    padding-top: 3em;
+    padding-left: 10em;    
+    height: 25em;    
+    border-top-right-radius: 5em;
+    background-color: rgb(36, 37, 45);
+    color: white;
+}
+#block5 {    
+    display: flex;
+    flex-direction: row;
+}
+#sec6 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13em;
+    margin-top: 1em;
+}
+#sec7 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13em;
+    margin-top: 1em;
+}
+#sec8 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 13em;
+    margin-top: 1em;
+}
+#stage1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+#stage1 a {
+    padding: .9em;
+    text-decoration: none;
+    color: white;
+}
+#stage2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+#stage2 a {
+    padding: .9em;
+    text-decoration: none;
+    color: white;
+}
+#stage3 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+}
+#stage3 a {
+    padding: .9em;
+    text-decoration: none;
+    color: white;
 }
