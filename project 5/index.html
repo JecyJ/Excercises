@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richest People</title>
+    <script src="https://kit.fontawesome.com/3691f8518b.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="app.css">
+
+
+</head>
+<body class="font-sans text-xs h-screen p-0 m-0 bg-gradient-to-r from-violet-500 to-sky-500 to-pink-500 to-fuchsia-500 flex flex-col items-center">
+    <h1 class="font-bold text-4xl">10 Richest People</h1>
+    <p class="text-2xl">Drag and Drop the items into their corresponding spots</p>
+    <ul class="draggable-list text-base cursor-pointer"></ul>
+    <button
+        type="button"
+        data-mdb-ripple="true"
+        data-mdb-ripple-color="light"
+        class="check-btn border w-36 h-2/9 py-2 font-medium text-base bg-sky-400 hover:bg-sky-700 hover:shadow-lg focus:bg-sky-700 focus:shadow-lg focus:outline-none focus:ring-1 active:bg-sky-800 active:shadow-lg transition duration-200 ease-in-out">
+        Check Order
+        <i class="fa-solid fa-paper-plane"></i>
+    </button> 
+
+    <script src="scripts.js"></script>
+</body>
+</html>
