@@ -5,9 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book List Application</title>
-
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3691f8518b.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body class="font-sans text-xs h-screen p-0 m-3 bg-gradient-to-b from-green-500 to-sky-500 to-orange-500 to-red-500 text-base">    
+    <div class="container flex flex-col items-center">
+        <h1 class="text-5xl">Book List Application</h1>
+        <h1 class="mt-5">
+            <i class="fa-solid fa-book-open text-5xl text-blue-600"></i>
+            <span class="text-4xl">My<span class="text-blue-500">Book</span>List</span>
+        </h1>
+    </div>            
+    <!-- DISPLAY MESSAGE -->
+    <!-- <div class="alert w-full mt-3 p-1 border bg-green-700">Book Added</div>  -->
+    
+    <form class="book-input"> 
+        <div class="form-group1">
+            <label for="title">Title</label>
+            <input type="text" name="title" class="title w-full">
+        </div>
+        <div class="form-group2">
+            <label for="author">Author</label>
+            <input type="text" name="author" class="author w-full">
+        </div>
+        <div class="form-group3">
+            <label for="isbn">ISBN</label>
+            <input type="text" name="isbn" class="isbn w-full">
+        </div>
+        <input 
+            type="submit" 
+            value="Add Book" 
+            class="check-btn border border-none rounded w-20 h-8 text-white mt-2 bg-blue-500 hover:bg-blue-600 hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-1 active:bg-sky-800 active:shadow-lg transition duration-400 ease-in-out active:scale-50">       
+    </form>
+    
+
+    <table class="table table-auto mt-6">
+        <thead class="">
+          <tr class="underline text-left">
+            <th class="w-80">Title</th>
+            <th class="w-40">Author</th>
+            <th class="w-32">ISBN#</th>
+            <th class="w-32"></th>
+          </tr>
+        </thead>
+        <tbody class="book-list"></tbody>
+      </table>
+   
+    
+    
     <script src="script.js"></script>
 </body>
 </html>
